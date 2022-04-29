@@ -23,7 +23,8 @@
 	temp.add(c);
 	}
 	}
-	if(temp==null) //to check of the size of the list is 0 27	{
+	if(temp==null) //to check of the size of the list is 0 27	
+	{
 	throw new InvalidCourseException("No course with fees greater than "+fees);
 	}
 	else
